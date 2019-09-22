@@ -146,7 +146,7 @@ class RetrieveFeedTask extends AsyncTask<Bitmap, Void, String[]> {
         String[] texts= new String[2];
         try {
             IamOptions options = new IamOptions.Builder()
-                    .apiKey("kZeFXb75vqGPka7LBNGe08QfVihFHFAZkjwpOzS5eQVM")
+                    .apiKey("APIKEY")
                     .build();
             VisualRecognition visualRecognition = new VisualRecognition("2018-03-19", options);
             //VisualRecognition vs= new VisualRecognition("",options);
