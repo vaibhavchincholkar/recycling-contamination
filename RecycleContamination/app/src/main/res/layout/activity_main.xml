@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:layout_gravity="center_vertical"
+    android:gravity="center">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="YOU CAN BE THE CHANGE!"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:text="You can use this application to take picture of any product and check if it can be recycled. And if so, how to recycle it in an appropriate manner."
+        android:textAppearance="@style/TextAppearance.AppCompat.Small"
+        android:textColor="#292E2E"
+        android:textColorHighlight="#00EEBABA"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/camera"
+        android:layout_width="160dp"
+        android:layout_height="70dp"
+        android:layout_gravity="center"
+        android:layout_margin="20dp"
+        android:text="Take photo" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="347dp"
+        app:srcCompat="@drawable/ic_launcher_background" />
+
+
+
+</LinearLayout>
